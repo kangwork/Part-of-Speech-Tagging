@@ -1,6 +1,3 @@
-# The tagger.py starter code for CSC384 A4.
-# Currently reads in the names of the training files, test file and output file,
-# and calls the tagger (which you need to implement)
 import sys
 
 from math import log
@@ -10,10 +7,9 @@ M = {}
 Initial = {}
 T = {}
 TagToCountT = {}
-# S = []  # all possible states(pos tags)
 TagToCount = {}
 E = {}
- # map index of E to tag iff obvious and not end of the sentence
+# map index of E to tag iff obvious and not end of the sentence
 threshold = 3  # a value we use for the unknown M val
 AfterThese = {}
 CountThese = {}
