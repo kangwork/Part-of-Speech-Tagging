@@ -54,6 +54,6 @@ When testing the program with different configurations, including the ratio of t
 
 These correctness percentages indicate the accuracy of the program in predicting the correct POS tags for the words in the test sentences.
 
-Note
+## Note
 - Please note that these results may vary depending on the specific dataset and the performance of the implemented HMM model.
 - This project was for my university course CSC384.
